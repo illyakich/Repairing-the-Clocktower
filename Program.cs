@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Design;
-
-Console.WriteLine("Please input a number");
+﻿Console.WriteLine("Please input a number");
 int Clock = Convert.ToInt32(Console.ReadLine());
 Clock = Clock % 2;
 if (Clock == 0)
